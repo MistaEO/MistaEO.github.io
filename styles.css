@@ -4,5 +4,9 @@ img {
 
 body {
     text-align: center;
-    font-family: "Comic Sans MS";
+    font-family: "Arial";
+}
+
+h1{
+    text-align: center;
 }
