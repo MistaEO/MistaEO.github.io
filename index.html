@@ -1,91 +1,128 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta chraset = "utf-8" />
-        <meta name = "viewport" content = "width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="icon" href="avocado.png">
-        <title>MistaEO's Page</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    </head>
-    
-    <body>
-        <h1 id = "title" style = "font-size:28px">Gavin Jiang's Home Page</h1>
-        <nav style = "text-align:center;font-size:14px"><a href = "index.html" style = "text-decoration:none">Home</a> | <a href = "about.html" style="text-decoration:none">About</a></nav>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <p></p>
-
-        <div class = "container-fluid" style = "margin-top: 2.5%">
-            <div class="row">
-                <div class="col-6" style = "width:40%; text-align:left;margin-left:10%;max-width:40%;">
-                    <p style = "text-align:center">Hi there! I'm <span style = "font-weight: bold; font-size: 22px;text-align:center">Gavin Jiang</span>.</p>
-                    <p>I completed my <span style = "font-weight:bold">Bachelor's of Science in Computer Science with a Minor in Mathematics</span> at <span style = "font-weight:bold">Santa Clara University</span> in <span style = "font-weight:bold">March 2024</span>.</p>
-                    <p>My research, project, and career interests are Artifical Intelligence, Machine Learning, and Software Engineering.</p>
-                    <p>I've had the opportunity to develop Machine Learning models for the measurement of dissolved oxygen content in water and for the detection of malware, and I've been able to explore AI/ML and Software Development in my personal projects.</p>
-                </div>
-                <div class="col-6" style = "width:40%;text-align:center;margin-right:10%; max-width:40%">
-                    <img style = "max-width:75%" src = "GavinCasualPortrait.JPG">
-                    <div style = "text-align:center;">
-                        <p class = "d-inline-flex gap-3" style = "margin-top: 10px">
-                            <a href = "https://www.linkedin.com/in/gavin-jiang-010b4b25a/" target = "_blank" rel = "noopener noreferrer">
-                                <button type = "button" class = "btn btn-primary">LinkedIn</button>
-                            </a>
-                            <a href = "https://github.com/MistaEO/" target = "_blank" rel = "noopener noreferrer">
-                                <button type = "button" class = "btn btn-primary">GitHub</button>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                
-                <div>
-                    
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gavin Jiang | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="avocado.png" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page">
+    <header class="nav-bar">
+        <div class="brand">
+            <span class="brand-mark">GJ</span>
+            <span class="brand-text">Gavin Jiang</span>
         </div>
-        
-        <div class = "container-fluid" style = "margin-top:2.5%">
-            <div class = "row">
-                <div class = "col-6" style = "width:40%;text-align:left;margin-left:10%;max-width:40%;">
-                    <ul class = "list-group">
-                        <h1 style = "font-size:24px;text-align:center">Research</h1>
-                        <li class = "list-group-item">
-                            <h3>DOxy: Dissolved Oxygen Monitoring System</h3>
-                            <img class = "logo" style = "margin-right:2.5%;float:left;max-width:20%" src = "https://www.scu.edu/media/school-of-engineering/photos/faculty-staff/faculty-pages/navid-shaghaghi/labs/Epic-Lab-360x336.png">
-                            <p style = "margin:auto"> <span style = "font-weight: bold; font-size:16px;text-align:center">Machine Learning Engineer, part of EPIC IoT Lab</span></p>
-                            <p>The DOxy research project is an attempt to develop low cost, accessible, and sustainable units to measure dissolved oxygen levels in water linked to a cloud infrastructure for visualization and analysis of dissolved oxygen values. We utilize pulse oximeters originally intended for measurement of oxygen in blood to measure oxygen content in water, utilizing machine learning models to produce a dynamic mapping of sensor readings to actual DO values. </p>
-                            <a href="https://www.mdpi.com/1424-8220/24/10/3253" target = "_blank" rel = "noopener noreferrer" style = "text-decoration:none">Published in MDPI Sensor Networks Journal</a>
-                        </li>
-                        <li class = "list-group-item">
-                            <h3>HA: Hydration Automation</h3>
-                            <img class = "logo" style = "margin-right:2.5%;float:left;max-width:20%;" src= "HAlogo.webp">
-                            <p style = "margin:auto"> <span style = "font-weight: bold; font-size:16px; text-align:center">IoT Researcher, part of EPIC IoT Lab</span></p>
-                            <p style = "margin:auto">HA is a project that develops solutions for the monitoring of water level in tanks to be deployed in an agricultural setting, with a cloud infrastructure to access and visualize water level data.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class = "col-6" style = "width:40%;text-align:left;margin-right:10%;max-width:40%;">
-                    <ul class = "list-group">
-                        <h1 style = "font-size:24px;text-align:center">Projects</h1>
-                        <li class = "list-group-item">
-                            <h3>AI Ransomware Detection</h3>
-                            <p style = "margin:auto"> <span style = "font-weight: bold; font-size:16px;text-align:center">Python, Keras, SKLearn</span></p>
-                            <p>Training and utilization of various Machine Learning models (XGBoost, Neural Network, etc.) to detect ransomware from datasets with 30,000+ features and 1,500+ samples for potential deployment on programmable networks.</p>
-                        </li>
-                        <li class = "list-group-item">
-                            <h3>Esports Team Management App</h3>
-                            <p style = "margin:auto"> <span style = "font-weight: bold; font-size:16px;text-align:center">Python, Django, HTML/CSS, SQLite</span></p>
-                            <p>Online Webapp to manage players, tournament schedules and info, tournament registration, and schedules for collegiate esports teams.</p>
-                        </li>
-                        <li class = "list-group-item">
-                            <h3>YGOToolboxBot</h3>
-                            <p style = "margin:auto"> <span style = "font-weight: bold; font-size:16px;text-align:center">Python</span></p>
-                            <p>Discord bot utilizing YGOProDeck API to pull Yu-Gi-Oh card information and present said information in Discord embeds. Successfully utilized in online remote games to pull information without leaving Discord.</p>
-                        </li>
+        <nav class="nav-links">
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-                    </ul>
+    <main>
+        <section class="hero" id="top">
+            <div class="hero-content">
+                <p class="eyebrow">AI/ML Engineer & Software Developer</p>
+                <h1>Hi, I'm <span class="highlight">Gavin Jiang</span>. I build intelligent systems and thoughtful software.</h1>
+                <p class="lede">Currently attending the University of Southern California, M.S. in Computer Science, Class of 2027.</p>
+                <p class="lede">Graduated from Santa Clara University, B.S. in Computer Science (Minor in Math), Class of 2025.</p>
+                <p class ="lede">I focus on applied machine learning, cloud-first IoT, and practical software solutions.</p>
+
+                <div class="cta-row">
+                    <a class="btn primary" href="https://www.linkedin.com/in/gavin-jiang-010b4b25a/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+                    <a class="btn ghost" href="https://github.com/MistaEO/" target="_blank" rel="noopener noreferrer">View GitHub</a>
+                </div>
+                <div class="quick-facts">
+                    <span class="pill">AI/ML</span>
+                    <span class="pill">Cloud & IoT</span>
+                    <span class="pill">Full-Stack</span>
                 </div>
             </div>
-    </body>
+            <div class="hero-portrait">
+                <div class="portrait-frame">
+                    <img src="GavinCasualPortrait.JPG" alt="Portrait of Gavin Jiang" />
+                </div>
+            </div>
+        </section>
 
-    
+        <section class="section" id="research">
+            <div class="section-header">
+                <p class="eyebrow">Research</p>
+                <h2>Work grounded in measurable impact</h2>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-header">
+                        <h3>DOxy: Dissolved Oxygen Monitoring</h3>
+                        <span class="tag">ML Engineer @ EPIC IoT Lab</span>
+                    </div>
+                    <p>Built models mapping pulse-oximeter signals to dissolved oxygen in water, enabling low-cost monitoring for environmental and agricultural settings.</p>
+                    <div class="meta">
+                        <a href="https://www.mdpi.com/1424-8220/24/10/3253" target="_blank" rel="noopener noreferrer">Published in MDPI Sensor Networks</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-header">
+                        <h3>Hydration Automation</h3>
+                        <span class="tag">IoT Researcher @ EPIC IoT Lab</span>
+                    </div>
+                    <p>Developed oxygen level monitoring for agriculture with cloud dashboards, ensuring reliable field visibility for distributed deployments.</p>
+                    <div class="meta">
+                        <span>Data Pipelines & Edge-to-Cloud</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-header">
+                <p class="eyebrow">Projects</p>
+                <h2>Recent builds and experiments</h2>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-header">
+                        <h3>AI Ransomware Detection</h3>
+                        <div class="tag-row">
+                            <span class="pill">Python</span><span class="pill">Keras</span><span class="pill">SKLearn</span>
+                        </div>
+                    </div>
+                    <p>Trained and evaluated XGBoost and neural models on high-dimensional datasets (30k+ features) to flag ransomware with deployment-ready inference.</p>
+                </article>
+                <article class="card">
+                    <div class="card-header">
+                        <h3>Esports Team Management App</h3>
+                        <div class="tag-row">
+                            <span class="pill">Django</span><span class="pill">SQLite</span><span class="pill">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <p>Full-stack web app for managing rosters, tournaments, and scheduling with clean data models and admin workflows.</p>
+                </article>
+                <article class="card">
+                    <div class="card-header">
+                        <h3>YGOToolboxBot</h3>
+                        <div class="tag-row">
+                            <span class="pill">Python</span><span class="pill">Discord API</span>
+                        </div>
+                    </div>
+                    <p>Discord bot leveraging YGOProDeck API to surface card details in rich embeds, improving game flow of remote games without leaving chat.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact-card">
+                <h2>Contact Me</h2>
+                <p></p>
+                <div class="cta-row">
+                    <a class="btn primary" href="mailto:gavinyjcs@gmail.com">Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
