@@ -1,10 +1,10 @@
 :root {
-    --bg: #0b1224;
-    --card: #0f1b33;
-    --accent: #f59e0b;
-    --text: #e5e7eb;
-    --muted: #9ca3af;
-    --border: rgba(229, 231, 235, 0.08);
+    --bg: #08150f;
+    --card: #10241a;
+    --accent: #9eea84;
+    --text: #e7f1eb;
+    --muted: #a0b5a8;
+    --border: rgba(231, 241, 235, 0.1);
 }
 
 * {
@@ -14,8 +14,8 @@
 body {
     margin: 0;
     font-family: 'Space Grotesk', 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background: radial-gradient(circle at 20% 20%, rgba(245, 158, 11, 0.08), transparent 35%),
-                radial-gradient(circle at 80% 0%, rgba(59, 130, 246, 0.08), transparent 25%),
+    background: radial-gradient(circle at 20% 20%, rgba(158, 234, 132, 0.12), transparent 35%),
+                radial-gradient(circle at 80% 0%, rgba(97, 204, 170, 0.1), transparent 25%),
                 var(--bg);
     color: var(--text);
     line-height: 1.6;
@@ -35,7 +35,7 @@ body {
     position: sticky;
     top: 0;
     padding: 16px 16px;
-    background: rgba(11, 18, 36, 0.8);
+    background: rgba(8, 21, 15, 0.82);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
     border-radius: 14px;
@@ -54,10 +54,10 @@ body {
     width: 36px;
     height: 36px;
     border-radius: 12px;
-    background: linear-gradient(135deg, var(--accent), #f97316);
+    background: linear-gradient(135deg, var(--accent), #63c581);
     display: grid;
     place-items: center;
-    color: #0b1224;
+    color: #08150f;
     font-weight: 800;
     font-size: 14px;
 }
@@ -130,9 +130,9 @@ body {
 }
 
 .btn.primary {
-    background: linear-gradient(135deg, var(--accent), #f97316);
-    color: #0b1224;
-    box-shadow: 0 10px 30px rgba(245, 158, 11, 0.25);
+    background: linear-gradient(135deg, var(--accent), #63c581);
+    color: #08150f;
+    box-shadow: 0 10px 30px rgba(158, 234, 132, 0.28);
 }
 
 .btn.ghost {
@@ -188,7 +188,7 @@ body {
     inset: 0;
     border-radius: 20px;
     pointer-events: none;
-    background: linear-gradient(180deg, rgba(245, 158, 11, 0.05), transparent 50%);
+    background: linear-gradient(180deg, rgba(158, 234, 132, 0.08), transparent 50%);
 }
 
 .portrait-frame img {
@@ -239,8 +239,8 @@ body {
 }
 
 .card .tag {
-    background: rgba(245, 158, 11, 0.1);
-    border-color: rgba(245, 158, 11, 0.25);
+    background: rgba(158, 234, 132, 0.12);
+    border-color: rgba(158, 234, 132, 0.3);
     color: var(--accent);
     width: fit-content;
 }
@@ -266,7 +266,7 @@ body {
 }
 
 .contact-card {
-    background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(59, 130, 246, 0.08));
+    background: linear-gradient(135deg, rgba(158, 234, 132, 0.12), rgba(97, 204, 170, 0.12));
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 24px;
