@@ -199,11 +199,20 @@ body {
 
 .section {
     padding: 36px 0;
+    scroll-margin-top: 96px;
 }
 
 .section-header h2 {
     margin: 4px 0 12px;
     font-size: 26px;
+}
+
+.project-group {
+    margin-top: 28px;
+}
+
+.project-group h3 {
+    margin: 0 0 12px;
 }
 
 .card-grid {
@@ -233,7 +242,7 @@ body {
     margin-bottom: 10px;
 }
 
-.card h3 {
+.card h3, .card h4 {
     margin: 0;
     font-size: 18px;
 }
@@ -286,6 +295,10 @@ body {
 }
 
 @media (max-width: 640px) {
+    .section {
+        scroll-margin-top: 144px;
+    }
+
     .nav-bar {
         flex-direction: column;
         gap: 8px;
