@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gavin Jiang | Portfolio</title>
+    <title>Gavin Jiang | Software, AI &amp; Embedded Engineering</title>
+    <meta name="description" content="Gavin Jiang is a USC M.S. Computer Science student with experience in software engineering, retrieval-augmented AI, SerDes test automation, and embedded sensor systems." />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,10 +17,11 @@
             <span class="brand-mark">GJ</span>
             <span class="brand-text">Gavin Jiang</span>
         </div>
-        <nav class="nav-links">
+        <nav class="nav-links" aria-label="Main navigation">
             <a href="#research">Research</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -27,11 +29,10 @@
     <main>
         <section class="hero" id="top">
             <div class="hero-content">
-                <p class="eyebrow">AI/ML Engineer & Software Developer</p>
-                <h1>Hi, I'm <span class="highlight">Gavin Jiang</span>. I build intelligent systems and thoughtful software.</h1>
-                <p class="lede">Currently attending the University of Southern California, M.S. in Computer Science, Class of 2027.</p>
-                <p class="lede">Graduated from Santa Clara University, B.S. in Computer Science (Minor in Math), Magna Cum Laude, Class of 2024.</p>
-                <p class ="lede">I focus on applied machine learning, cloud-first IoT, and practical software solutions.</p>
+                <p class="eyebrow">Software · AI · Embedded Systems</p>
+                <h1>Hi, I'm <span class="highlight">Gavin Jiang</span>. I build practical software, AI tools, and embedded data systems.</h1>
+                <p class="lede">M.S. in Computer Science at the University of Southern California, expected June 2027. B.S. in Computer Science with a Mathematics minor from Santa Clara University, Magna Cum Laude, March 2024.</p>
+                <p class="lede">My experience spans legal intake and retrieval at Beshton, ML-driven SerDes test automation at Infinera, and sensor networking research at EPIC IoT.</p>
 
                 <div class="cta-row">
                     <a class="btn primary" href="https://www.linkedin.com/in/gavin-jiang-010b4b25a/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
@@ -48,17 +49,17 @@
         <section class="section" id="research">
             <div class="section-header">
                 <p class="eyebrow">Research</p>
-                <h2>Research with practical implementations and real-world impact</h2>
+                <h2>Applied machine learning and sensor networks</h2>
             </div>
             <div class="card-grid">
                 <article class="card">
                     <div class="card-header">
-                        <h3>DOxy: Dissolved Oxygen Monitoring</h3>
-                        <span class="tag">ML Engineer @ EPIC IoT Lab</span>
+                        <h3>DOxy: A Dissolved Oxygen Monitoring System</h3>
+                        <span class="tag">Researcher @ EPIC IoT Lab</span>
                     </div>
-                    <p>Built models mapping pulse-oximeter signals to dissolved oxygen in water, enabling low-cost monitoring for environmental and agricultural settings.</p>
+                    <p>Developed regression models to estimate dissolved oxygen from experimental infrared and dissolved-oxygen measurements, alongside data pipelines for oxygen-sensing devices.</p>
                     <div class="meta">
-                        <a href="https://www.mdpi.com/1424-8220/24/10/3253" target="_blank" rel="noopener noreferrer">Published in MDPI Sensor Networks</a>
+                        <a href="https://www.mdpi.com/1424-8220/24/10/3253" target="_blank" rel="noopener noreferrer">Read the publication in Sensors (2024)</a>
                     </div>
                 </article>
                 <article class="card">
@@ -66,9 +67,9 @@
                         <h3>Hydration Automation</h3>
                         <span class="tag">IoT Researcher @ EPIC IoT Lab</span>
                     </div>
-                    <p>Developed oxygen level monitoring for agriculture with cloud dashboards, ensuring reliable field visibility for distributed deployments.</p>
+                    <p>Developed an API between the network and link layers of the protocol stack for Hydration Automation stations, with bidirectional sensor-data pipelines and the AB energy-aware networking protocol.</p>
                     <div class="meta">
-                        <span>Data Pipelines & Edge-to-Cloud</span>
+                        <span>Protocol APIs · Sensor data pipelines · Energy-aware networking</span>
                     </div>
                 </article>
             </div>
@@ -82,10 +83,20 @@
             <div class="card-grid">
                 <article class="card">
                     <div class="card-header">
+                        <h3>AI Engineering Intern - Beshton</h3>
+                        <span class="tag">Mountain View, CA | Jul 2026 - Sep 2026</span>
+                    </div>
+                    <p>Built a natural-language intake workflow that converts legal case descriptions into structured data, identifies missing information and required forms, and incorporates filing limits and procedural constraints.</p>
+                    <div class="meta">
+                        <span>Developed a RAG pipeline to ingest and retrieve information from official, vetted legal sources.</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-header">
                         <h3>Software Engineer Intern - Infinera</h3>
                         <span class="tag">Sunnyvale, CA | Jun 2025 - Aug 2025</span>
                     </div>
-                    <p>Built data parsing and visualization tools for high-speed SerDes DFE testing logs, including BER and EOM analysis across tap settings and voltages.</p>
+                    <p>Built parsers, visualizations, and reports for high-speed SerDes DFE test logs, comparing bit-error rate (BER) and eye-opening monitor (EOM) measurements across tap settings, voltages, and test configurations.</p>
                     <div class="meta">
                         <span>Implemented an automated ML-driven testing pipeline to optimize SerDes settings and minimize BER.</span>
                     </div>
@@ -95,9 +106,9 @@
                         <h3>Researcher - EPIC IoT</h3>
                         <span class="tag">Santa Clara, CA | Jan 2023 - Jun 2024</span>
                     </div>
-                    <p>Developed regression models to interpolate dissolved oxygen from IR/DO measurements and built IoT data pipelines for reliable device-to-cloud communication.</p>
+                    <p>Implemented embedded Wi-Fi communication for T2 Whispernodes using ESP8266-01 modules and Arduino-compatible boards to relay sensor measurements.</p>
                     <div class="meta">
-                        <span>Implemented protocol APIs and WiFi relays with ESP8266-based nodes for Hydration Automation and dissolved oxygen monitoring systems.</span>
+                        <span>Built protocol APIs, energy-aware networking, and bidirectional data pipelines for Hydration Automation and dissolved oxygen monitoring.</span>
                     </div>
                 </article>
             </div>
@@ -106,7 +117,7 @@
         <section class="section" id="projects">
             <div class="section-header">
                 <p class="eyebrow">Projects</p>
-                <h2>Recent builds and experiments</h2>
+                <h2>Selected software and AI projects</h2>
             </div>
             <div class="card-grid">
                 <article class="card">
@@ -117,7 +128,8 @@
                                 <span class="pill">Python</span><span class="pill">PyTorch</span>
                             </div>
                         </div>
-                        <p>Building a hierarchical reinforcement learning framework for Minecraft with reusable macro-actions and environment-aware planning over structured game-state features.</p>
+                        <p>Implemented a hierarchical reinforcement learning framework that connects a Mineflayer bot to a Python training backend, with reusable macro-actions, structured game-state observations, and tech-tree rewards.</p>
+                        <div class="meta">DQN/PPO training and reasoning-path evaluation against reference paths · Feb 2026 - Jun 2026</div>
                     </a>
                 </article>
                 <article class="card">
@@ -125,55 +137,116 @@
                         <div class="card-header">
                             <h3>AI Yu-Gi-Oh! Judge</h3>
                             <div class="tag-row">
-                                <span class="pill">Python</span><span class="pill">RAG</span><span class="pill">PyTorch</span><span class="pill">LoRA</span>
+                                <span class="pill">Python</span><span class="pill">FastAPI</span><span class="pill">RAG</span><span class="pill">Ollama</span>
                             </div>
                         </div>
-                        <p>Fine-tuning an LLM on Yu-Gi-Oh! rulings and implementing a retrieval-augmented pipeline to answer rule questions with relevant card references.</p>
+                        <p>Built a local rules assistant using Qwen3 8B through Ollama, ChromaDB vector search, and BM25 keyword retrieval. A SQLite/FTS5 cache stores card information fetched on demand from YGOPRODeck.</p>
+                        <div class="meta">FastAPI returns structured judge-slip JSON; a citation guard removes references absent from the retrieved context. · Dec 2025 - Present</div>
                     </a>
                 </article>
                 <article class="card">
-                    <a class="card-link" href="https://duelmath.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open DuelMath repository">
+                    <a class="card-link" href="https://duelmath.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open DuelMath live app">
                         <div class="card-header">
                             <h3>DuelMath</h3>
                             <div class="tag-row">
                                 <span class="pill">TypeScript</span><span class="pill">React.js</span><span class="pill">HTML/CSS</span>
                             </div>
                         </div>
-                        <p>Front-end utility app and deck builder for Yu-Gi-Oh! players, designed to support probability checks and practical deck analysis.</p>
+                        <p>Developed a React and TypeScript app with a deck builder and mathematical tools for Yu-Gi-Oh! players, including multivariate hypergeometric calculations for opening-hand probabilities.</p>
+                        <div class="meta">Dec 2025 - Present · Open live app</div>
                     </a>
+                    <div class="meta">
+                        <a href="https://github.com/MistaEO/DuelMath" target="_blank" rel="noopener noreferrer">View DuelMath source</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="section-header project-group">
+                <h3>Current engineering work</h3>
+                <p class="lede">Projects in progress since October 2026. The descriptions below outline their scope; benchmark and verification results are not yet published here.</p>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-header">
+                        <h4>CUDA RMSNorm Operator</h4>
+                        <span class="tag">In progress | Oct 2026 - Present</span>
+                        <div class="tag-row">
+                            <span class="pill">C++</span><span class="pill">CUDA</span><span class="pill">PyTorch</span>
+                        </div>
+                    </div>
+                    <p>Scope: a fused RMSNorm operator with PyTorch integration, FP32/FP16 correctness checks across input shapes, and synchronized latency and memory-bandwidth comparisons against eager and compiled PyTorch.</p>
                 </article>
                 <article class="card">
-                    <a class="card-link" href="https://github.com/tspython/Ransomware-Detection-XG" target="_blank" rel="noopener noreferrer" aria-label="Open AI Ransomware Detection repository">
-                        <div class="card-header">
-                            <h3>AI Ransomware Detection</h3>
-                            <div class="tag-row">
-                                <span class="pill">Python</span><span class ="pill">PyTorch</span><span class="pill">Keras</span><span class="pill">SKLearn</span>
-                            </div>
+                    <div class="card-header">
+                        <h4>TensorRT Inference Optimization</h4>
+                        <span class="tag">In progress | Oct 2026 - Present</span>
+                        <div class="tag-row">
+                            <span class="pill">C++</span><span class="pill">PyTorch</span><span class="pill">ONNX</span><span class="pill">TensorRT</span>
                         </div>
-                        <p>Trained classification models on ransomware features for deployment on programmable networks, including preprocessing, hyperparameter optimization, and cross-validation.</p>
-                    </a>
+                    </div>
+                    <p>Scope: a PyTorch-to-ONNX-to-TensorRT classifier workflow comparing FP32, FP16, and calibrated INT8 accuracy and performance, with a C++ runner for p50/p95 latency, throughput, and GPU-memory measurements.</p>
                 </article>
+                <article class="card">
+                    <div class="card-header">
+                        <h4>RTL Verification Environment</h4>
+                        <span class="tag">In progress | Oct 2026 - Present</span>
+                        <div class="tag-row">
+                            <span class="pill">SystemVerilog</span><span class="pill">UVM</span>
+                        </div>
+                    </div>
+                    <p>Scope: a parameterized FIFO and UVM environment with constrained-random sequences, a scoreboard, assertions, and functional coverage for reset, full/empty boundaries, simultaneous reads/writes, and pointer wraparound.</p>
+                </article>
+            </div>
+
+            <div class="section-header project-group">
+                <h3>Earlier software projects</h3>
+            </div>
+            <div class="card-grid">
                 <article class="card">
                     <a class="card-link" href="https://github.com/JoshAtre/esports-event-manager" target="_blank" rel="noopener noreferrer" aria-label="Open Esports Team Management App repository">
                         <div class="card-header">
-                            <h3>Esports Team Management App</h3>
+                            <h4>Esports Team Management App</h4>
                             <div class="tag-row">
                                 <span class="pill">Django</span><span class="pill">SQLite</span><span class="pill">HTML/CSS</span>
                             </div>
                         </div>
-                        <p>Full-stack web app for managing rosters, tournaments, and scheduling with clean data models and admin workflows.</p>
+                        <p>Django web app with models for teams and player rosters, dated events, and team event registration, backed by SQLite.</p>
                     </a>
                 </article>
                 <article class="card">
                     <a class="card-link" href="https://github.com/MistaEO/YGOToolboxBot" target="_blank" rel="noopener noreferrer" aria-label="Open YGOToolboxBot repository">
                         <div class="card-header">
-                            <h3>YGOToolboxBot</h3>
+                            <h4>YGOToolboxBot</h4>
                             <div class="tag-row">
                                 <span class="pill">Python</span><span class="pill">Discord API</span>
                             </div>
                         </div>
-                        <p>Discord bot leveraging YGOProDeck API to surface card details in rich embeds, improving game flow of remote games without leaving chat.</p>
+                        <p>Python Discord bot that retrieves named or random cards from the YGOPRODeck API and displays card descriptions, artwork, and database links in rich embeds.</p>
                     </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-header">
+                <p class="eyebrow">Technical Skills</p>
+                <h2>Tools across software, AI, and embedded systems</h2>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-header"><h3>Software engineering</h3></div>
+                    <p>Python, C/C++, TypeScript/JavaScript, SQL, and Rust; React, Django, and FastAPI.</p>
+                    <div class="meta">APIs · Structured data workflows · Linux/Bash · Docker</div>
+                </article>
+                <article class="card">
+                    <div class="card-header"><h3>AI and machine learning</h3></div>
+                    <p>PyTorch, TensorFlow, and scikit-learn; retrieval-augmented generation, regression, classification, and reinforcement learning.</p>
+                    <div class="meta">Model evaluation · Hybrid retrieval · Sensor-data modeling</div>
+                </article>
+                <article class="card">
+                    <div class="card-header"><h3>Embedded systems and hardware testing</h3></div>
+                    <p>C/C++, Verilog, and ARM Assembly; ESP8266-01 modules, Arduino-compatible boards, Wi-Fi, and protocol stacks.</p>
+                    <div class="meta">SerDes DFE testing · BER/EOM analysis · Sensor data pipelines</div>
                 </article>
             </div>
         </section>
@@ -181,10 +254,9 @@
         <section class="section contact" id="contact">
             <div class="contact-card">
                 <h2>Contact Me</h2>
-                <p></p>
+                <p>Interested in software engineering, AI engineering, and embedded systems opportunities.</p>
                 <div class="cta-row">
-                    <p>Feel free to reach out for collaborations, inquiries, or just to say hello!</p>
-                    <a class="btn primary" href="mailto:gavinyjcs@gmail.com">Email</a>
+                    <a class="btn primary" href="mailto:gavinyjcs@gmail.com">Email Gavin</a>
                 </div>
             </div>
         </section>
